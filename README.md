@@ -24,7 +24,7 @@ De todos los tipos de microprocesadores basados en ESP8266 he utilizado un WEMOS
 ## Cosas que necesitarás para este proyecto
 **Hardware**
 
-- [WEMOS D1 Mini Pro 16M Bytes External Antenna](https://s.click.aliexpress.com/e/kMC1v8nW) ×	1	 
+- [WEMOS D1 Mini Pro 16M Bytes External Antenna](https://s.click.aliexpress.com/e/kMC1v8nW) × 2 	 
 <img src="https://github.com/McOrts/Water_flow_sensor_MQTT/blob/master/Pictures/WemosD1MiniPro.PNG" width="200" align="right" />
 
 - [G1/2 Inch Water Flow Hall Sensor Switch Flow Meter](http://es.aliexpress.com/item/33043594353.html) ×	1	
@@ -38,8 +38,6 @@ De todos los tipos de microprocesadores basados en ESP8266 he utilizado un WEMOS
 
 ## Resultado final
 
-### Receptor                                                                              Mando a distancia
-<img src="https://github.com/McOrts/Garage_door_WiFi/blob/master/images/IMG_6877.JPG" width="200" align="left" />
-
-<img src="https://github.com/McOrts/Garage_door_WiFi/blob/master/images/IMG_7845.JPG" width="200" align="right" />
-
+|Receptor|Mando a distancia|
+|---|---|
+|<img src="https://github.com/McOrts/Garage_door_WiFi/blob/master/images/IMG_6877.JPG" width="300" align="left" />|<img src="https://github.com/McOrts/Garage_door_WiFi/blob/master/images/IMG_7845.JPG" width="300" align="right" />|
