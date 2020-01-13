@@ -8,7 +8,7 @@ int time_now = 0;
 /*
  * Define you friend's list size here
  */
-#define LIST_SIZE 9
+#define LIST_SIZE 2
 /*
  * This is your friend's MAC address list
  */
