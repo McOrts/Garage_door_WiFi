@@ -19,15 +19,16 @@ Curiosamente, la wifi de la cámara *dash-board* del coche es la que mejor se id
 ## *How to*
 Desarrollar este concepto en el ecosistema Arduino es fácil porque desde hace años existen firmware y librerías orientadas a extender y desbloquear el uso de la comunicación wifi. Si elegimos trabajar con procesadores ESP8266 tenemos la librería [ESPProLib de Ricardo Oliveira](https://github.com/RicardoOliveira/ESPProLib) que incluye las funciones necesarias.
 
-De todos los tipos de microprocesadores basados en ESP8266 he utilizado un WEMOS D1 Mini tanto como receptor y emisor a modo de mando a distancia. También incluyo código para utilizar un M5Stick-C
+De todos los tipos de microprocesadores basados en ESP8266 he utilizado un WEMOS D1 Mini tanto como receptor y emisor a modo de mando a distancia. También incluyo código para utilizar un M5Stick-C.
 
 ## Cosas que necesitarás para este proyecto
 **Hardware**
 
 - [WEMOS D1 Mini Pro 16M Bytes External Antenna](https://s.click.aliexpress.com/e/kMC1v8nW) ×	1	 
-<img src="https://github.com/McOrts/Water_flow_sensor_MQTT/blob/master/Pictures/WemosD1MiniPro.PNG" width="250" align="right" />
+<img src="https://github.com/McOrts/Water_flow_sensor_MQTT/blob/master/Pictures/WemosD1MiniPro.PNG" width="200" align="right" />
+
 - [G1/2 Inch Water Flow Hall Sensor Switch Flow Meter](http://es.aliexpress.com/item/33043594353.html) ×	1	
-<img src="https://github.com/McOrts/Garage_door_WiFi/blob/master/images/WEMOSD1mIni_Relay_Shield.jpg?raw=true" width="250" align="right" />
+<img src="https://github.com/McOrts/Garage_door_WiFi/blob/master/images/WEMOSD1mIni_Relay_Shield.jpg?raw=true" width="200" align="right" />
 
 **Software**
 - [Arduino IDE](https://www.hackster.io/arduino/products/arduino-ide?ref=project-8e87cc)
@@ -36,8 +37,9 @@ De todos los tipos de microprocesadores basados en ESP8266 he utilizado un WEMOS
 <img src="https://github.com/McOrts/Garage_door_WiFi/blob/master/images/Garage_door_Wifi_control_bb.png" width="600"  align="center" />
 
 ## Resultado final
-### Receptor
-<img src="https://github.com/McOrts/Garage_door_WiFi/blob/master/images/IMG_6877.JPG" align="center" />
-### Mando a distancia
-<img src="https://github.com/McOrts/Garage_door_WiFi/blob/master/images/IMG_7845.JPG" align="center" />
+
+### Receptor                                                                              Mando a distancia
+<img src="https://github.com/McOrts/Garage_door_WiFi/blob/master/images/IMG_6877.JPG" width="200" align="left" />
+
+<img src="https://github.com/McOrts/Garage_door_WiFi/blob/master/images/IMG_7845.JPG" width="200" align="right" />
 
