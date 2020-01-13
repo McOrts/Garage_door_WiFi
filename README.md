@@ -1,7 +1,7 @@
 # Control de acceso al garaje por identificación wifi de dispositivos
 
 ## El problema
-Todos conocemos los mandos de radiofrecuencia o 'pastillas' utilizados para la apertura y cierre de puertas de garage. Comúnmente estos dispositivos se comunican una señal de radiofrecuencia en las bandas 433 ó 868 MHz. El emisor codifica una señal compuesta por una trama que no siempre le identifica y que tampoco codifica. Por lo que son fácilmente hackeables.
+Todos conocemos los mandos de radiofrecuencia o 'pastillas' utilizados para la apertura y cierre de puertas de garaje. Comúnmente estos dispositivos se comunican una señal de radiofrecuencia en las bandas 433 ó 868 MHz. El emisor codifica una señal compuesta por una trama que no siempre le identifica y que tampoco codifica. Por lo que son fácilmente hackeables. Realmente no es la solución más cómoda porque utilizan pilas poco habituales, son costosos, requieren de equipos especiales para copiarse y se pueden perder fácilmente. ¿No sería mejor utilizar nuestro propio teléfono móvil?
 
 ## Una solución 100% Maker que me permite abrir la puerta con el móvil
 ## El modo promiscuo 
@@ -17,9 +17,9 @@ uint8_t friendmac[LIST_SIZE][ESPPL_MAC_LEN] = {
 Curiosamente, la wifi de la cámara *dash-board* del coche es la que mejor se identifica. De manera que cuando arrancas el coche, la puerta de garaje se abre y cuando te aproximas desde la calle. Y desde una distancia suficiente como para no ser necesario parar. Así he ganado en comodidad y tiempo mis entradas y salidas a casa. 
 
 ## *How to*
-Desarrollar este concepto en el ecosistema Arduino es fácil porque desde hace años existen firmware y librerías orientadas a extender y desbloquear el uso de la comunicación wifi. Si elejimos trabajar con procesadores ESP8266 tenemos la libreria [ESPProLib de Ricardo Oliveira](https://github.com/RicardoOliveira/ESPProLib) que incluye las funciones necesarias.
+Desarrollar este concepto en el ecosistema Arduino es fácil porque desde hace años existen firmware y librerías orientadas a extender y desbloquear el uso de la comunicación wifi. Si elegimos trabajar con procesadores ESP8266 tenemos la librería [ESPProLib de Ricardo Oliveira](https://github.com/RicardoOliveira/ESPProLib) que incluye las funciones necesarias.
 
-De todos los tipos de microprocesadores basados en ESP8266 he utilizado un WEMOS D1 Mini tanto como receptor y emisor a modo de mando a distancia. 
+De todos los tipos de microprocesadores basados en ESP8266 he utilizado un WEMOS D1 Mini tanto como receptor y emisor a modo de mando a distancia. También incluyo código para utilizar un M5Stick-C
 
 ## Cosas que necesitarás para este proyecto
 **Hardware**
@@ -33,7 +33,7 @@ De todos los tipos de microprocesadores basados en ESP8266 he utilizado un WEMOS
 - [Arduino IDE](https://www.hackster.io/arduino/products/arduino-ide?ref=project-8e87cc)
 
 **Esquemático**
-<img src="https://github.com/McOrts/Garage_door_WiFi/blob/master/images/Garage_door_Wifi_control_bb.png" width="300"  align="center" />
+<img src="https://github.com/McOrts/Garage_door_WiFi/blob/master/images/Garage_door_Wifi_control_bb.png" width="600"  align="center" />
 
 ## Resultado final
 ### Receptor
