@@ -5,7 +5,7 @@ Todos conocemos los mandos de radiofrecuencia o 'pastillas' utilizados para la a
 
 ## Una solución 100% Maker que me permite abrir la puerta con el móvil
 ## El modo promiscuo 
-En el modo promiscuo un dispositivo conectado a una red compartida, captura todo el tráfico que circula por ella. Esta es la manera en la que los *sniffers* trabajan. Capturan todos los paquetes de datos que circulan por la red aunque no sea el destinatario o sea información que sólo se utiliza para la identificación de los paquetes como la dirección MAC (mac-address).
+En el modo promiscuo un dispositivo conectado a una red compartida, captura todo el tráfico que circula por ella. Esta es la manera en la que los *sniffers* trabajan. Se establece una escucha pasiva de la red WiFi revisando la información que sólo se utiliza para la identificación de los paquetes como la dirección MAC (mac-address), los llamados *'beacon frames'*.
 <img src="https://github.com/McOrts/Garage_door_WiFi/blob/master/images/Garage_door_Wifi_control_diagram.JPG" width="400" align="left" />
 La solución que he encontrado ha sido registrar una tabla de direcciones MAC de los dispositivos que utilizo; en un microcontrolador conectado a un relé. Este receptor está permanentemente rastreando clientes wifi. Cuando una dirección de dispositivo existe en la tabla, activa el relé que abre la puerta del garaje. 
 ```
